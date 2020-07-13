@@ -1,61 +1,52 @@
 /*------ Base styles ------*/
-body {
-	margin: 0px;
-	padding: 0px;
-}
-
 * {
 	box-sizing: border-box;
 }
-
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
 h1 {
-	margin: 15px;
+	margin: 20px;
 	text-align:center;
 	font-size: 175%;
 }
-h2 {
-     position: absolute;
-     top: 0px;
-     right: 5%;
-     width: 27%;
-     height: 25px;
-     border: 1px solid black;
+h2.sec-title {
+     position: relative;
+     top: -2px;
+     right: -12px;
+     border: 2px solid black;
      font-size: 125%;
-     text-align: center;
      font-weight: bold;
-}
-h2.feijoada {
-	background-color: black;
-	color: white;
-}
-h2.churrasco {
-	background-color: red;
-}
-h2.brigadeiro {
-	background-color: brown;
-	color: white;
-}
-div {
-	position: relative;
+     text-align: center;
+     float: right;
+     margin: 0px;
+     padding: 0px 50px;
 }
 p {
-  padding-top: 40px;
-  padding-right: 5%;
-  padding-left: 5%;
-  padding-bottom: 15px;
-  border: 1px solid black;
-  background-color: grey;
-  width: 90%;
-  height: 30%;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-weight: bold;
-  font-size: 100%;
+  	padding: 0 10px;
+	clear: right;
+	margin: 0 auto;
+}
+#feijoada {
+	background-color: #f07973;
+}
+#churrasco {
+	background-color: #eb2d23;
+	color: #ffffff;
+}
+#brigadeiro {
+	background-color: #f2ef83;
+}
+.container {
+	border: 2px solid black;
+	background-color: #b3b3b3;
+	padding: 0px 10px;
+	margin: 10px;
 }
 /*--- Simple Responsive Framework. ---*/
-.container {
+.row {
 	width: 100%;
 }
 /*------ Desktop Breakpoint ------*/
